@@ -1,171 +1,336 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Roos Automotivo: manutenção e reparos automotivos com atendimento a domicílio em Itapecerica da Serra e região.">
-    <meta name="theme-color" content="#17191c">
-    <title>Roos Automotivo | Mecânica a Domicílio</title>
+    <meta name="description" content="Roos Fotografia por Nicole Pereira. Fotografia esportiva, eventos e momentos especiais.">
+    <meta name="theme-color" content="#111110">
+
+    <title>Roos Fotografia | Nicole Pereira</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
 </head>
 
 <body>
-    <!-- CABEÇALHO -->
-    <header class="header">
-        <a href="#inicio" class="logo">
-            <img src="assets/logo.png" alt="Roos Automotivo">
-        </a>
 
-        <nav class="navigation">
-            <a href="#inicio">Início</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#contato">Contato</a>
-        </nav>
-    </header>
+<header class="site-header">
 
-    <main>
-        <section id="inicio" class="hero">
-            <div class="hero-background"></div>
-            <div class="hero-content">
-                <span class="hero-tag">MECÂNICA AUTOMOTIVA • ATENDIMENTO A DOMICÍLIO</span>
-                <h1>Seu carro em boas mãos.<span>Onde você estiver.</span></h1>
-                <p>Manutenção e reparos automotivos com praticidade e atenção.</p>
-                <a
-                    href="https://wa.me/5511985265735?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Roos%20Automotivo%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
-                    class="button"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >Solicitar orçamento</a>
-            </div>
-        </section>
+    <a class="brand" href="#inicio">
+        <span class="brand-name">ROOS<span>.</span></span>
+        <span class="brand-subtitle">FOTOGRAFIA</span>
+    </a>
 
-        <!-- FAIXA DE DESTAQUES -->
-        <section class="mechanic-strip">
-            <div class="strip-item">
-                <span class="strip-symbol">01</span>
-                <span>Manutenção automotiva</span>
-            </div>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+    </button>
 
-            <div class="strip-item">
-                <span class="strip-symbol">02</span>
-                <span>Atendimento a domicílio</span>
-            </div>
+    <nav class="navigation">
+        <a href="#inicio">Início</a>
+        <a href="#trabalho">O que fotografo</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato" class="nav-contact">Contato ↗</a>
+    </nav>
 
-            <div class="strip-item">
-                <span class="strip-symbol">03</span>
-                <span>Itapecerica e região</span>
-            </div>
-        </section>
+</header>
 
-        <!-- SERVIÇOS -->
-        <section id="servicos" class="services">
-            <div class="section-heading">
-                <h2>Cuidado e manutenção<span>para o seu veículo.</span></h2>
-                <p>Soluções automotivas com praticidade, diretamente na sua garagem.</p>
-            </div>
+<main>
 
-            <div class="services-grid">
-                <article class="service-card">
-                    <span class="service-number">01</span>
-                    <span class="service-line"></span>
-                    <h3>Sistema de freios</h3>
-                    <p>Manutenção e substituição de componentes do sistema de freios.</p>
-                </article>
+    <!-- INÍCIO -->
 
-                <article class="service-card">
-                    <span class="service-number">02</span>
-                    <span class="service-line"></span>
-                    <h3>Óleos e fluidos</h3>
-                    <p>Trocas e verificações de óleos e fluidos essenciais para o veículo.</p>
-                </article>
+    <section class="hero section" id="inicio">
 
-                <article class="service-card">
-                    <span class="service-number">03</span>
-                    <span class="service-line"></span>
-                    <h3>Bombas e filtros</h3>
-                    <p>Manutenção e substituição conforme a necessidade do veículo.</p>
-                </article>
+        <div class="hero-copy">
 
-                <article class="service-card">
-                    <span class="service-number">04</span>
-                    <span class="service-line"></span>
-                    <h3>Outros reparos</h3>
-                    <p>Outros serviços mecânicos podem ser avaliados conforme a necessidade.</p>
-                </article>
-            </div>
-
-            <p class="services-note">Os serviços são realizados conforme avaliação técnica e condições de execução no local.</p>
-        </section>
-
-        <!-- SOBRE O Diogo -->
-        <section id="sobre" class="about">
-            <div class="about-decoration">
-                <span>ROOS</span>
-                <span>AUTOMOTIVO</span>
-            </div>
-
-            <div class="about-content">
-                <h2>Conheça o mecânico <span>Diogo.</span></h2>
-                <p>
-                    À frente da Roos Automotivo, Diogo trabalha
-                    com manutenção e reparos automotivos,
-                    oferecendo atendimento personalizado e
-                    praticidade para quem precisa cuidar do veículo.
-                </p>
-                <p>
-                    A proposta é levar o serviço até você,
-                    com atenção, compromisso e cuidado em
-                    cada atendimento.
-                </p>
-                <a href="#contato" class="button">Fale com a Roos</a>
-            </div>
-        </section>
-
-        <!-- CONTATO -->
-        <section id="contato" class="contact">
-            <h2>Seu próximo reparo <span>começa aqui.</span></h2>
-            <p>
-                Conte o que seu veículo precisa e solicite
-                um orçamento. Vamos avaliar a melhor solução
-                para o seu caso.
+            <p class="eyebrow">
+                FOTOGRAFIA POR NICOLE PEREIRA
             </p>
 
-            <div class="contact-buttons">
-                <a
-                    href="https://wa.me/5511985265735?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Roos%20Automotivo%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="contact-whatsapp"
-                >Solicitar pelo WhatsApp</a>
-            
-                <a
-                    href="https://www.instagram.com/roos_automotivo/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="contact-instagram"
-                >Acompanhar no Instagram</a>
+            <h1>
+                Histórias reais.<br>
+                <em>Olhares únicos.</em>
+            </h1>
+
+            <p class="hero-text">
+                Fotografias que guardam a intensidade dos momentos
+                e a beleza do que acontece de verdade.
+            </p>
+
+            <div class="hero-actions">
+
+                <a href="#trabalho" class="button button-light">
+                    Conheça meu trabalho <span>↘</span>
+                </a>
+
+                <a href="#contato" class="text-link">
+                    Vamos conversar ↗
+                </a>
+
             </div>
 
-            <div class="contact-location">
-                <span class="location-line"></span>
-                ITAPECERICA DA SERRA • SP E REGIÃO
-                <span class="location-line"></span>
-            </div>
-        </section>
-    </main>
+        </div>
 
-    <!-- RODAPÉ -->
-    <footer>
-        <a href="#inicio" class="footer-brand">ROOS <span>AUTOMOTIVO</span></a>
-        <p>
-            © <span id="year"></span> Roos Automotivo.
-            Todos os direitos reservados.
+        <div class="hero-visual">
+
+            <div class="photo-frame hero-photo">
+                <img src="assets/images/foto-destaque.jpg"
+                     alt="Fotografia de destaque">
+                <span class="photo-note">
+                    Adicione sua foto de destaque
+                </span>
+            </div>
+
+            <div class="hero-stamp">
+                <span>ROOS</span>
+                <span>FOTOGRAFIA</span>
+                <span>POR NICOLE</span>
+            </div>
+
+            <p class="hero-caption">
+                ITAPECERICA DA SERRA · SP
+            </p>
+
+        </div>
+
+        <a href="#trabalho" class="scroll-cue">
+            <span></span> ROLE PARA EXPLORAR
+        </a>
+
+    </section>
+
+
+    <!-- FRASE DE IMPACTO -->
+
+    <section class="intro section">
+
+        <p class="eyebrow">MEU OLHAR, SUA HISTÓRIA</p>
+
+        <p class="intro-text">
+            Mais do que fotografar, quero
+            <em>registrar aquilo que merece ser lembrado.</em>
         </p>
-    </footer>
+
+    </section>
+
+
+    <!-- SERVIÇOS -->
+
+    <section class="work section" id="trabalho">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="eyebrow">O QUE EU FOTOGRAFO</p>
+
+                <h2>
+                    Momentos diferentes.<br>
+                    <em>Memórias para sempre.</em>
+                </h2>
+            </div>
+
+            <p class="section-aside">
+                Do tatame às comemorações, meu foco é encontrar
+                histórias nos detalhes e emoção em cada instante.
+            </p>
+
+        </div>
+
+
+        <!-- JIU-JITSU -->
+
+        <article class="work-card work-sport">
+
+            <div class="work-image photo-frame">
+
+                <img src="assets/images/jiujitsu.jpg"
+                     alt="Fotografia de Jiu-Jitsu">
+
+                <span class="photo-note">
+                    Adicione uma foto de Jiu-Jitsu
+                </span>
+
+                <span class="image-index">01 / 02</span>
+
+            </div>
+
+            <div class="work-copy">
+
+                <p class="eyebrow">
+                    MOVIMENTO · DISCIPLINA · SUPERAÇÃO
+                </p>
+
+                <h3>Jiu-Jitsu</h3>
+
+                <p>
+                    A intensidade de cada luta, a concentração antes
+                    do combate e a emoção depois do resultado.
+                    Registros de treinos, campeonatos e atletas.
+                </p>
+
+                <a href="#contato" class="text-link">
+                    Quero registrar meu momento ↗
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- EVENTOS -->
+
+        <article class="work-card work-events">
+
+            <div class="work-image photo-frame">
+
+                <img src="assets/images/eventos.jpg"
+                     alt="Fotografia de festas e celebrações">
+
+                <span class="photo-note">
+                    Adicione uma foto de evento
+                </span>
+
+                <span class="image-index">02 / 02</span>
+
+            </div>
+
+            <div class="work-copy">
+
+                <p class="eyebrow">
+                    AFETO · ALEGRIA · CONEXÃO
+                </p>
+
+                <h3>Pequenos eventos</h3>
+
+                <p>
+                    Aniversários, encontros e comemorações especiais.
+                    Fotografias espontâneas para reviver os sorrisos,
+                    os abraços e os detalhes de cada celebração.
+                </p>
+
+                <a href="#contato" class="text-link">
+                    Vamos conversar sobre seu evento ↗
+                </a>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <!-- SOBRE -->
+
+    <section class="about section" id="sobre">
+
+        <div class="about-image photo-frame">
+
+            <img src="assets/images/nicole.jpg"
+                 alt="Nicole, fotógrafa da Roos Fotografia">
+
+            <span class="photo-note">
+                Adicione um retrato seu com a câmera
+            </span>
+
+        </div>
+
+        <div class="about-copy">
+
+            <p class="eyebrow">POR TRÁS DA CÂMERA</p>
+
+            <h2>
+                Prazer,<br>
+                <em>eu sou a Nicole.</em>
+            </h2>
+
+            <p>
+                A Roos Fotografia é a minha forma de transformar
+                momentos em lembranças. Estou construindo meu caminho
+                na fotografia com curiosidade, dedicação e vontade
+                de contar boas histórias através das imagens.
+            </p>
+
+            <p>
+                Gosto de observar o que acontece naturalmente:
+                a energia de uma luta, a espontaneidade de uma
+                comemoração e aqueles detalhes que, às vezes,
+                passam despercebidos.
+            </p>
+
+            <span class="signature">Nicole Pereira</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTATO -->
+
+    <section class="contact section" id="contato">
+
+        <p class="eyebrow">
+            TEM UMA HISTÓRIA PARA REGISTRAR?
+        </p>
+
+        <h2>
+            Vamos transformar<br>
+            <em>momentos em memória.</em>
+        </h2>
+
+        <p>
+            Me conte o que você está planejando.
+            Vai ser um prazer conversar com você.
+        </p>
+
+        <a class="button button-light"
+           id="whatsapp-link"
+           href="#"
+           target="_blank"
+           rel="noopener">
+
+            Fale comigo pelo WhatsApp ↗
+
+        </a>
+
+        <a class="contact-instagram"
+           id="instagram-link"
+           href="#"
+           target="_blank"
+           rel="noopener">
+
+            Acompanhe no Instagram ↗
+
+        </a>
+
+    </section>
+
+</main>
+
+
+<!-- RODAPÉ -->
+
+<footer class="site-footer">
+
+    <a class="brand footer-brand" href="#inicio">
+        <span class="brand-name">ROOS<span>.</span></span>
+        <span class="brand-subtitle">FOTOGRAFIA</span>
+    </a>
+
+    <p>Fotografia por Nicole Pereira</p>
+
+    <p>
+        © <span id="year"></span>
+        Roos Fotografia. Todos os direitos reservados.
+    </p>
+
+</footer>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
