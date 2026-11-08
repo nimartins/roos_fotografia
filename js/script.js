@@ -4,10 +4,10 @@
 ================================== */
 
 // DDI + DDD + número, somente números.
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "5511966554806";
 
 // Link do Instagram.
-const INSTAGRAM_URL = "https://www.instagram.com/";
+const INSTAGRAM_URL = "https://www.instagram.com/roos_fotografia/";
 
 
 /* ==================================
